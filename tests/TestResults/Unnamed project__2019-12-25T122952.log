@@ -1,0 +1,51 @@
+﻿2019-12-25T12:29:52.5441800+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-12-25T12:29:52.5444200+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.38 in Framework netcore30 in x64 mode execution started
+2019-12-25T12:29:52.5444230+05:30;VSTestExecutionThread;Info;TestAdapter Location: /Users/pramodjangam/code/learn/dotnet/ef/tests/bin/Debug/netcoreapp3.0/TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-12-25T12:29:52.5611610+05:30;VSTestExecutionThread;Info;SpecRun: running tests in /Users/pramodjangam/code/learn/dotnet/ef/tests/bin/Debug/netcoreapp3.0/crud_apis.tests.dll
+2019-12-25T12:29:52.5616570+05:30;VSTestExecutionThread;Info;Output folder configured to "/Users/pramodjangam/code/learn/dotnet/ef/tests/TestResults" (default)
+2019-12-25T12:29:52.5617200+05:30;VSTestExecutionThread;Info;Profile: 
+2019-12-25T12:29:52.5848080+05:30;VSTestExecutionThread;Info;Log file path: /Users/pramodjangam/code/learn/dotnet/ef/tests/TestResults/Unnamed project__2019-12-25T122952.log
+2019-12-25T12:29:52.5889700+05:30;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-12-25T12:29:52.5925370+05:30;VSTestExecutionThread;Info;Checking license
+2019-12-25T12:29:52.6097060+05:30;VSTestExecutionThread;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-12-25T12:30:00.6132280+05:30;VSTestExecutionThread;Info;Evaluation delay finished.
+2019-12-25T12:30:00.6178580+05:30;VSTestExecutionThread;Info;License check completed
+2019-12-25T12:30:00.6185670+05:30;VSTestExecutionThread;Info;starting test run
+2019-12-25T12:30:00.6250090+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2019-12-25T12:30:00.6251250+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: /Users/pramodjangam/code/learn/dotnet/ef/tests/bin/Debug/netcoreapp3.0/crud_apis.tests.dll
+2019-12-25T12:30:00.6881690+05:30;VSTestExecutionThread;Info;Discovered tests from assembly: /Users/pramodjangam/code/learn/dotnet/ef/tests/bin/Debug/netcoreapp3.0/crud_apis.tests.dll
+2019-12-25T12:30:00.6891320+05:30:Test Suite Dump
+2019-12-25T12:30:00.6904540+05:30:#0: Unnamed project/ - 
+2019-12-25T12:30:00.6904720+05:30:#1: Default - 
+2019-12-25T12:30:00.6904750+05:30:#2: crud_apis.tests - 
+2019-12-25T12:30:00.6904760+05:30:#3: Create - 
+2019-12-25T12:30:00.6921130+05:30:#4: Create db entry - TestAssembly:crud_apis.tests/Feature:Create/Scenario:Create+db+entry
+2019-12-25T12:30:00.6921590+05:30:End: Test Suite Dump
+2019-12-25T12:30:00.7084540+05:30:Thread#0:Scheduler: get next test for thread 0
+2019-12-25T12:30:00.7103080+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-12-25T12:30:00.7103680+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-12-25T12:30:00.7130490+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-12-25T12:30:00.7130630+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-12-25T12:30:00.7130660+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-12-25T12:30:00.7130680+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-12-25T12:30:00.7137110+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-12-25T12:30:00.7149770+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-12-25T12:30:00.7171760+05:30:Thread #0: creating new test thread executor for crud_apis.tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-12-25T12:30:00.7194170+05:30:Thread #0: Creating test assembly executor for execution model OutProc
+2019-12-25T12:30:00.7196050+05:30:Thread #0: Creating test assembly executor for execution model OutProc
+2019-12-25T12:30:00.7207870+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-12-25T12:30:00.7224110+05:30:starting Out Of Process Executor
+2019-12-25T12:30:00.7230840+05:30:Starting callback TCP Rpc server
+2019-12-25T12:30:00.7344750+05:30:Asynchronously starting background TCP Rpc Server on port 32768
+2019-12-25T12:30:00.7345250+05:30:Started callback TCP Rpc server on port 32768
+2019-12-25T12:30:00.7345280+05:30:Starting logger TCP Rpc server
+2019-12-25T12:30:00.7352980+05:30:Asynchronously starting background TCP Rpc Server on port 32769
+2019-12-25T12:30:00.7353190+05:30:Started logger TCP Rpc server on port 32769
+2019-12-25T12:30:00.8108340+05:30:Executing test executor at '/usr/bin/dotnet' 'exec "/Users/pramodjangam/code/learn/dotnet/ef/tests/bin/Debug/netcoreapp3.0/SpecFlowPlusRunner/netcoreapp3.0/TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_0.dll" --remoteRunnerPid 6114 --uniqueId "2019-12-25T122952" --outputFolder "/Users/pramodjangam/code/learn/dotnet/ef/tests/TestResults" --callbackPort 32768 --loggerPort 32769' in '/Users/pramodjangam/code/learn/dotnet/ef/tests/bin/Debug/netcoreapp3.0'
+2019-12-25T12:30:00.8150430+05:30:System.ComponentModel.Win32Exception (2): No such file or directory
+   at System.Diagnostics.Process.ForkAndExecProcess(String filename, String[] argv, String[] envp, String cwd, Boolean redirectStdin, Boolean redirectStdout, Boolean redirectStderr, Boolean setCredentials, UInt32 userId, UInt32 groupId, UInt32[] groups, Int32& stdinFd, Int32& stdoutFd, Int32& stderrFd, Boolean usesTerminal, Boolean throwOnNoExec)
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.OutProcExecutorManager.StartProcess(ExecutorProcessInfo executorProcessInfo)
+   at TechTalk.SpecRun.VisualStudio.TestAdapter.VsOutProcExecutorManager.StartProcess(ExecutorProcessInfo executorProcessInfo)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.Initialize(Int32 threadId, ITestExecutionManager executionManager, IAssemblyReference testAssembly, ITestLogger currentLogger, String testAssemblyFullPath, String testAssemblyConfigFilePath, TestExecutionConfiguration testExecutionConfiguration, String target)
