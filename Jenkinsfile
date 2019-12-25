@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { docker { image 'mcr.microsoft.com/dotnet/core/sdk'}}
 
     stages {
         stage('Build and Test') {

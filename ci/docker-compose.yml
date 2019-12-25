@@ -1,6 +1,7 @@
 version: '3'
 services:
   jenkins:
+    build: .
     image: "jenkins:time-tracker"
     volumes:
       - ./jenkins:/var/jenkins_home
