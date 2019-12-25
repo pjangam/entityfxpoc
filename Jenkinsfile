@@ -6,7 +6,7 @@ pipeline {
         steps {
                dir("."){
                 sh 'pwd'
-                sh 'RUN apt-get update && apt-get install -y build-essential'
+                sh ' apt-get update && apt-get install -y build-essential'
                 sh 'make build'
               }
             }
