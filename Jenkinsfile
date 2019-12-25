@@ -5,9 +5,8 @@ pipeline {
         stage('Build and Test') {
         steps {
                dir("."){
-                sh 'pwd'
-                sh ' apt-get update && apt-get install -y build-essential'
-                sh 'make build'
+                sh 'apt-get update && apt-get install -y build-essential > /dev/null'
+                sh 'make'
               }
             }
         }
