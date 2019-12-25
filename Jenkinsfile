@@ -5,6 +5,8 @@ pipeline {
         stage('Build and Test') {
         steps {
                dir("timetrackerbackend"){
+                sh 'pwd'
+                sh 'ls'
                 sh 'dotnet build'
               }
             }
