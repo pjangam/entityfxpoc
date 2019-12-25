@@ -6,7 +6,7 @@ RUN while read i ; \
 		do /usr/local/bin/install-plugins.sh $i ; \
 	done < /usr/share/jenkins/plugins
 User root
-RUN apt-get update && apt-get install -y build-essential \
+RUN apt-get update && apt-get install -y build-essential
 #     apt-transport-https \
 #     ca-certificates \
 #     curl \
