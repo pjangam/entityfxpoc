@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud_apis", "crud_apis\crud_apis.csproj", "{3FC4C6EA-93EE-451E-AE2C-932666C10127}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud_apis", "src\crud_apis\crud_apis.csproj", "{3FC4C6EA-93EE-451E-AE2C-932666C10127}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud_apis.tests", "tests\crud_apis.tests.csproj", "{1DFFFC89-79AE-4DD8-BCDD-AA7CAF0AA97F}"
 EndProject

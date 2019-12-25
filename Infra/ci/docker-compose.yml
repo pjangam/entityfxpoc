@@ -11,4 +11,3 @@ services:
       - /usr/local/bin/docker:/usr/bin/docker
       - ${HOME}:/home
       - ./jenkins:/var/jenkins_home
-    
