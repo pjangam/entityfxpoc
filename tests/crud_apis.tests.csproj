@@ -11,5 +11,6 @@
     <PackageReference Include="SpecFlow.xUnit" Version="3.1.74"/>
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.74"/>
     <PackageReference Include="FluentAssert" Version="1.0.0.11"/>
+    <PackageReference Include="Npgsql" Version="4.1.2"/>
   </ItemGroup>
 </Project>
