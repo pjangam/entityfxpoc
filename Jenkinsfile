@@ -7,7 +7,7 @@ pipeline {
                dir("."){
                 sh 'pwd'
                 sh 'ls'
-                sh 'dotnet build'
+                sh 'make build'
               }
             }
         }
