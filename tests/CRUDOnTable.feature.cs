@@ -86,9 +86,7 @@ namespace crud_apis.tests
         public virtual void CreateDbEntry()
         {
             string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create db entry", "    Given: Table student exists\n    When: User create student with id \'1\' name \'P" +
-                    "ramod\' and class \'BE\'\n    Then: DB should have entry for id \'1\' name \'Pramod\' cl" +
-                    "ass \'BE\'", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create db entry", null, ((string[])(null)));
 #line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -109,6 +107,15 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
+#line 4
+    testRunner.Given("Table student exists", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 5
+    testRunner.When("User create student with id \'1\' name \'Pramod\' and class \'BE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 6
+    testRunner.Then("DB should have entry for id \'1\' name \'Pramod\' class \'BE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

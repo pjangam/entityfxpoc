@@ -1,5 +1,7 @@
 using System;
 using TechTalk.SpecFlow;
+using Xunit;
+
 namespace crud_apis.tests
 {
 
@@ -8,11 +10,20 @@ namespace crud_apis.tests
     class Steps
     {
         [Given(@"Table student exists")]
-        [When(@"User create student with id '1' name 'Pramod' and class 'BE'")]
-        [When(@"DB should have entry for id '1' name 'Pramod' class 'BE'")]
         public void GivenPrecondition()
         {
             Console.WriteLine("####################");
+            //Assert.NotEmpty("");
+        }
+         [Then(@"DB should have entry for id '(.*)' name '(.*)' class '(.*)'")]
+        public void ThenDBShouldHaveEntryForIdNameClass(int p0, string pramod1, string bE2)
+        {
+            System.Console.WriteLine();
+        }
+         [When(@"User create student with id '(.*)' name '(.*)' and class '(.*)'")]
+        public void WhenUserCreateStudentWithIdNameAndClass(int p0, string pramod1, string bE2)
+        {
+            System.Console.WriteLine();
         }
     }
 }
