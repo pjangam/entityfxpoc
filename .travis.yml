@@ -4,7 +4,6 @@ dotnet: 3.0
 solution: ef.sln
 install:
   - dotnet restore ef.sln
-  - dotnet install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
-  - msbuild /p:Configuration=Release ef.sln
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./MyProject.Tests/bin/Release/MyProject.Tests.dll
+  - dotnet build ef.sln
+  - dotnet test tests/crud_apis.tests.csproj
