@@ -1,0 +1,12 @@
+language: csharp
+mono:
+  - latest
+  - 3.12.0
+  - 3.10.0
+solution: ef.sln
+install:
+  - nuget restore solution-name.sln
+  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
+script:
+  - msbuild /p:Configuration=Release ef.sln
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./MyProject.Tests/bin/Release/MyProject.Tests.dll
