@@ -3,7 +3,7 @@ mono: none
 dotnet: 3.0
 solution: ef.sln
 install:
-  - dotnet restore solution-name.sln
+  - dotnet restore ef.sln
   - dotnet install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
   - msbuild /p:Configuration=Release ef.sln
